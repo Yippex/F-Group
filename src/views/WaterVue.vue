@@ -7,7 +7,9 @@ export default {
 <template>
   <section>
     <div class="container">
+      <marquee behavior="" direction="" style="color: white; font-size: 4rem; margin-bottom: 1px;">WELCOME TO FEDAS HOTEL SERVICES CO LTD </marquee>
       <div class="container-text">
+        <h2> Fedas Water Service Co LTD</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet velit doloribus
           sint dolorem laboriosam, natus dicta repellat rerum modi animi unde, reprehenderit vitae
@@ -17,7 +19,7 @@ export default {
     </div>
   </section>
   <section class="gallery">
-    <h1 class="centered-h1">Agro Allied Farms</h1>
+    <h1 class="centered-h1">Photo Gallery</h1>
     <div class="container-links">
       <div class="img-card">
         <RouterLink to="/AgroAllied">
@@ -39,9 +41,30 @@ export default {
           </div>
         </RouterLink>
       </div>
-      <div class="img-card">
+      <!-- <div class="img-card">
         <RouterLink to="/company4">
           <img src="../assets/water/IMG-20231019-WA0018.jpg" alt="Company 4" />
+          <div class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
+            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
+            illo cupiditate vero commodi, odit, asperiores quibusdam!
+          </div>
+        </RouterLink>
+      </div> -->
+
+      <div class="img-card">
+        <RouterLink to="/company4">
+          <img src="../assets/water/IMG-20231019-WA0017.jpg" alt="Company 4" />
+          <div class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
+            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
+            illo cupiditate vero commodi, odit, asperiores quibusdam!
+          </div>
+        </RouterLink>
+      </div>
+      <div class="img-card">
+        <RouterLink to="/company4">
+          <img src="../assets/water/IMG-20231019-WA0041.jpg" alt="Company 4" />
           <div class="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
             dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
@@ -64,7 +87,7 @@ export default {
   position: relative;
   background-image: url('../assets/water/IMG-20231019-WA0018.jpg'); /* Replace with your background image path */
   background-size: cover;
-  padding: 20px;
+  padding: 10px;
   height: 80vh;
 }
 
@@ -75,8 +98,8 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4); 
-  filter: blur(1); /* Adjust the blur amount as needed */
+  background: rgba(0, 0, 0, 0.5); 
+  filter: blur(10px); /* Adjust the blur amount as needed */
 }
 
 .container p {

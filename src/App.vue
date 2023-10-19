@@ -1,8 +1,8 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router';
-import rentals from './assets/rental.jpeg';
+import { RouterLink, RouterView } from 'vue-router'
+import rentals from './assets/rental.jpeg'
 import Agro from './views/AgroAllied.vue'
-import Footer from './components/Footer.vue';
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
@@ -13,8 +13,11 @@ import Footer from './components/Footer.vue';
       </nav>
     </header>
 
-    <section :class="{ 'hidden': $route.matched.length }">
-      <div class="container-links">
+    <section :class="{ hidden: $route.matched.length }">
+      <div class="background-image">
+        <img src="../src/assets/images/FandF.jpeg" alt="" class="full-width-height" />
+      </div>
+      <div class="container-links center">
         <div class="img-card">
           <RouterLink to="/AgroAllied">
             <img src="../src/assets/farm/IMG-20231019-WA0036.jpg" alt="Company 2" />
@@ -36,22 +39,41 @@ import Footer from './components/Footer.vue';
       </div>
     </section>
     <router-view></router-view>
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
 <style scoped>
 nav {
   height: 60px;
-  background: linear-gradient(to right, #4CAF50, #008CBA);
+  background: #004daa;
   padding: 0 8rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+.full-width-height {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the image vertically and horizontally */
+}
 
-section {
-  padding-top: 5%;
+.background-image {
+  background-image: url('../src/assets/images/IMG-20231019-WA0021.jpg'); /* Replace with your background image URL */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 2; /* Adjust the opacity for transparency */
+  position: relative;
+  height: 400px; /* Adjust the height as needed */
+  width: 100%;
+  filter: blur(0px);
+  margin: 0 auto;
 }
 
 h1 {
@@ -93,6 +115,9 @@ h1 {
   .container-links {
     flex-direction: column; /* Stack cards vertically on smaller screens */
     align-items: center;
+  }
+  .full-width-height{
+    top: 40%;
   }
   nav {
     padding: 0 1rem;
