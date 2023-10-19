@@ -7,6 +7,7 @@ export default {
 <template>
   <section>
     <div class="container">
+      <marquee behavior="" direction="" style="color: white; font-size: 3rem;">WELCOME TO FEDAS AGRO ALLIED FARM LTD</marquee>
       <div class="container-text">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet velit doloribus
@@ -98,6 +99,7 @@ export default {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+  
 }
 
 .img-card {
@@ -108,6 +110,7 @@ export default {
   margin: 10px;
   text-align: center;
   max-width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
 }
 
 .img-card img {

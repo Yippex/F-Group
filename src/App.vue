@@ -15,7 +15,8 @@ import Footer from './components/Footer.vue'
 
     <section :class="{ hidden: $route.matched.length }">
       <div class="background-image">
-        <img src="../src/assets/images/FandF.jpeg" alt="" class="full-width-height" />
+        <marquee behavior="" direction="" style="color: white; font-size: 3em;">WELCOME TO FANDF GREENER GROUP OF COMPANIES</marquee>
+        <img src="../src/assets/images/FandF.png" alt="" class="full-width-height" />
       </div>
       <div class="container-links center">
         <div class="img-card">
@@ -63,6 +64,7 @@ nav {
   transform: translate(-50%, -50%); /* Center the image vertically and horizontally */
 }
 
+
 .background-image {
   background-image: url('../src/assets/images/IMG-20231019-WA0021.jpg'); /* Replace with your background image URL */
   background-size: cover;
@@ -74,7 +76,9 @@ nav {
   width: 100%;
   filter: blur(0px);
   margin: 0 auto;
+  background-color: #31708e;
 }
+
 
 h1 {
   color: white;
@@ -87,16 +91,21 @@ h1 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around; /* Center the cards on larger screens */
+  /* background-color: #31708e; */
 }
 
 .img-card {
   flex: 1;
-  border: 1px solid #ddd;
+ 
   border-radius: 8px;
   padding: 10px;
   margin: 10px;
   text-align: center;
   max-width: 300px; /* Adjust the max-width as needed for your design */
+
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+  margin: 20px;
 }
 
 .img-card img {
@@ -107,7 +116,7 @@ h1 {
 .card-text {
   margin-top: 10px;
   font-weight: bold;
-  color: #333;
+  color: black;
 }
 
 /* Media query for small screens */
@@ -116,7 +125,7 @@ h1 {
     flex-direction: column; /* Stack cards vertically on smaller screens */
     align-items: center;
   }
-  .full-width-height{
+  .full-width-height {
     top: 40%;
   }
   nav {

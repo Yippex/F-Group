@@ -7,6 +7,7 @@ export default {
 <template>
   <section>
     <div class="container">
+      <marquee behavior="" direction="" style="color: white; font-size: 3REM;">WELCOME TO FANDF ENGINEERING CO LTD</marquee>
       <div class="container-text">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet velit doloribus
@@ -108,6 +109,7 @@ export default {
   margin: 10px;
   text-align: center;
   max-width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
 }
 
 .img-card img {

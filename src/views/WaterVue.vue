@@ -63,7 +63,7 @@ export default {
         </RouterLink>
       </div>
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/water/IMG-20231019-WA0041.jpg" alt="Company 4" />
           <div class="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
@@ -77,7 +77,8 @@ export default {
 </template>
 
 <style scoped>
- .gallery{
+
+.gallery{
   padding-top: 2%;
 }
 .centered-h1 {
@@ -131,6 +132,7 @@ export default {
   margin: 10px;
   text-align: center;
   max-width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
 }
 
 .img-card img {
@@ -140,7 +142,8 @@ export default {
 
 .card-text {
   margin-top: 10px;
-  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
   color: #333;
 }
 
