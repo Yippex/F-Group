@@ -5,12 +5,11 @@
       <!-- Footer section -->
       <footer class="footer">
         <div class="footer-links">
-          <a href="#" class="footer-link">Twitter</a>
-          <a href="#" class="footer-link">Facebook</a>
+          <!-- <a href="#" class="footer-link">Twitter</a>
+          <a href="#" class="footer-link">Facebook</a> -->
         </div>
         <div class="footer-logos">
-          <a href="#"><img src="/path/to/twitter-logo.png" alt="Twitter Logo" class="footer-logo"></a>
-          <a href="#"><img src="/path/to/facebook-logo.png" alt="Facebook Logo" class="footer-logo"></a>
+          
         </div>
       </footer>
     </div>
