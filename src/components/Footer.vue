@@ -1,0 +1,51 @@
+<template>
+    <div>
+      
+  
+      <!-- Footer section -->
+      <footer class="footer">
+        <div class="footer-links">
+          <a href="#" class="footer-link">Twitter</a>
+          <a href="#" class="footer-link">Facebook</a>
+        </div>
+        <div class="footer-logos">
+          <a href="#"><img src="/path/to/twitter-logo.png" alt="Twitter Logo" class="footer-logo"></a>
+          <a href="#"><img src="/path/to/facebook-logo.png" alt="Facebook Logo" class="footer-logo"></a>
+        </div>
+      </footer>
+    </div>
+  </template>
+  
+  <style scoped>
+  /* Your existing styles */
+  
+  .footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer-links {
+    margin-bottom: 10px;
+  }
+  
+  .footer-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-logo {
+    width: 30px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    margin: 0 10px;
+  }
+  </style>
+  
