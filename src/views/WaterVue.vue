@@ -52,16 +52,36 @@ export default {
           </div>
         </RouterLink>
       </div>
-      <!-- <div class="img-card">
+      <div class="img-card">
         <RouterLink to="/company4">
-          <img src="../assets/water/IMG-20231019-WA0018.jpg" alt="Company 4" />
+          <img src="../assets/images/IMG-20231019-WA0033.jpg" alt="Company 4" />
           <div class="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
             dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
             illo cupiditate vero commodi, odit, asperiores quibusdam!
           </div>
         </RouterLink>
-      </div> -->
+      </div>
+      <div class="img-card">
+        <RouterLink to="/company4">
+          <img src="../assets/images/IMG-20231019-WA0042.jpg" alt="Company 4" />
+          <div class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
+            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
+            illo cupiditate vero commodi, odit, asperiores quibusdam!
+          </div>
+        </RouterLink>
+      </div>
+      <div class="img-card">
+        <RouterLink to="/company4">
+          <img src="../assets/images/IMG-20231019-WA0037.jpg" alt="Company 4" />
+          <div class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
+            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
+            illo cupiditate vero commodi, odit, asperiores quibusdam!
+          </div>
+        </RouterLink>
+      </div>
 
       <div class="img-card">
         <RouterLink to="/company4">
@@ -75,7 +95,7 @@ export default {
       </div>
       <div class="img-card">
         <RouterLink to="">
-          <img src="../assets/water/IMG-20231019-WA0041.jpg" alt="Company 4" />
+          <img src="../assets/images/IMG-20231019-WA0030.jpg" alt="Company 4" />
           <div class="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
             dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
@@ -85,7 +105,7 @@ export default {
       </div>
       <div class="img-card">
         <RouterLink to="">
-          <img src="../assets/images/IMG-20231019-WA0042.jpg" alt="Company 4" />
+          <img src="../assets/images/IMG-20231019-WA0029.jpg" alt="Company 4" />
           <div class="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
             dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
