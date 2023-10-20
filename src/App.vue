@@ -1,7 +1,7 @@
 <script>
 import { RouterLink, RouterView } from 'vue-router'
-
 import Footer from './components/Footer.vue'
+
 export default {
     data() {
         return {
@@ -53,7 +53,7 @@ export default {
       <div class="container-links center">
         <div class="img-card">
           <RouterLink to="/AgroAllied">
-            <img src="../src/assets/farm/IMG-20231019-WA0036.jpg" alt="Company 2" />
+            <img src="./assets/farm/IMG-20231019-WA0036.jpg" alt="Company 2" />
             <div class="card-text">Fedas Agro Allied Farms Ltd</div>
           </RouterLink>
         </div>
@@ -81,9 +81,9 @@ nav {
   height: 60px;
   background: #004daa;
   padding: 0 8rem;
-  display: flex;
+ 
   align-items: center;
-  justify-content: space-between;
+  
 }
 
 .full-width-height {
@@ -152,7 +152,7 @@ h1 {
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: flex-end
+  /* justify-content: flex-end */
 }
 
 .navbar a {
@@ -209,6 +209,9 @@ h1 {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+a{
+  text-decoration: none;
 }
 
 /* Media query for small screens */
