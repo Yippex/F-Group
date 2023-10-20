@@ -1,217 +1,158 @@
 <script>
 import { RouterLink, RouterView } from 'vue-router'
-import Footer from '../components/Footer.vue'
-
 </script>
 
 <template>
-  <div>
-    <header>
-      <nav>
-        <div class="navbar">
-          <a href="#home">Home</a>
-          <a href="#news">News</a>
-          <div class="dropdown">
-            <button class="dropbtn">
-              Dropdown
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <RouterLink to="/AgroAllied">Agro Allied</RouterLink>
-              <routerLink to="/Fedas water service"></routerLink>
-              <RouterLink to="'/Fedas Engineering">Agro Allied</RouterLink>
-              
-            </div>
-          </div>
+  <div class="landing">
+    <div id="landing-page">
+      <div class="background">
+        <!-- Background image -->
+        <img src="../assets/images/FandF.png" alt="Background Image" />
+      </div>
+      <div class="content">
+        <h1>Welcome to FandF Greener Group of Companies</h1>
+        <p>
+          This is a simple landing page example with a background image that covers 80% of the
+          viewport height. You can customize it to suit your needs.
+        </p>
+      </div>
+    </div>
+    <div class="card-container">
+      <RouterLink to="/AgroAllied" class="card">
+        <img src="../assets/farm/IMG-20231019-WA0048.jpg" alt="Card Image" class="card-image" />
+        <div class="card-description">
+          <h2>AgroAllied Farm Limited</h2>
         </div>
-      </nav>
-    </header>
+      </RouterLink>
 
-    <section :class="{ hidden: $route.matched.length }">
-      <div class="background-image">
-        <marquee behavior="" direction="" style="color: white; font-size: 3em"
-          >WELCOME TO FANDF GREENER GROUP OF COMPANIES</marquee
-        >
-        <img src="../assets/images/FandF.png" alt="" class="full-width-height" />
-      </div>
-      <div class="container-links center">
-        <div class="img-card">
-          <RouterLink to="/AgroAllied">
-            <img src="" alt="Company 2" />
-            <div class="card-text">Fedas Agro Allied Farms Ltd</div>
-          </RouterLink>
+      <RouterLink to="/Fedas Engineering" class="card">
+        <img
+          src="../assets/engineering/IMG-20231019-WA0022.jpg"
+          alt="Card Image"
+          class="card-image"
+        />
+        <div class="card-description">
+          <h2>Fedas Engineering Co LTD</h2>
         </div>
-        <div class="img-card">
-          <RouterLink to="/Fedas water service">
-            <img src="" alt="Company 3" />
-            <div class="card-text">Fedas Water Services Ltd.</div>
-          </RouterLink>
+      </RouterLink>
+
+      <RouterLink to="/Fedas Engineering" class="card">
+        <img src="../assets/images/IMG-20231019-WA0033.jpg" alt="Card Image" class="card-image" />
+        <div class="card-description">
+          <h2>FANDF HOTEL SERVICES</h2>
         </div>
-        <div class="img-card">
-          <RouterLink to="/Fedas Engineering">
-            <img src="" alt="Company 4" />
-            <div class="card-text">F&F Greener Engineering Co Ltd</div>
-          </RouterLink>
-        </div>
-      </div>
-    </section>
-    <router-view></router-view>
-    <Footer />
+      </RouterLink>
+    </div>
   </div>
 </template>
 
 <style scoped>
-nav {
-  height: 60px;
-  background: #004daa;
-  padding: 0 8rem;
+.landing {
+  height: 100vh;
+}
+#landing-page {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.full-width-height {
-  max-width: 100%;
-  max-height: 100%;
-  display: block;
-  margin: 0 auto; /* Center the image horizontally */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* Center the image vertically and horizontally */
-}
-
-.background-image {
-  background-image: url('../src/assets/images/IMG-20231019-WA0021.jpg'); /* Replace with your background image URL */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 2; /* Adjust the opacity for transparency */
-  position: relative;
-  height: 400px; /* Adjust the height as needed */
+.background {
+  position: fixed;
   width: 100%;
-  filter: blur(0px);
-  margin: 0 auto;
-  background-color: #31708e;
+  height: 100vh; /* Adjusted to 100vh */
+  top: 0;
+  left: 0;
+  filter: blur(5px);
+  z-index: -1;
+}
+
+.background img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  /* background-color: rgba(255, 255, 255, 0.1); */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 600px;
 }
 
 h1 {
-  color: white;
+  font-size: 2rem;
+  color: #fff;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #cccccc;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   /* Adjusted to 100vh */
+  gap: 20px;
+  margin-top: 50px;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  height: 200px; /* Equal width and height */
+  /* background-color: #fff; */
+  background: #f2d8ad;
+}
+.card h2 {
+  color: #fff;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-description {
+  padding: 1px;
+}
+
+h2 {
   font-size: 18px;
   margin: 0;
 }
 
-.container-links {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around; /* Center the cards on larger screens */
-  /* background-color: #31708e; */
+p {
+  font-size: 14px;
+  margin: 10px 0;
 }
 
-.img-card {
-  flex: 1;
-
-  border-radius: 8px;
-  padding: 10px;
-  margin: 10px;
-  text-align: center;
-  max-width: 300px; /* Adjust the max-width as needed for your design */
-
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
-  margin: 20px;
-}
-
-.img-card img {
-  max-width: 100%;
-  height: auto;
-}
-
-.card-text {
-  margin-top: 10px;
-  font-weight: bold;
-  color: black;
-}
-.navbar {
-  overflow: hidden;
- 
-}
-
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+a {
   text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+  font-size: 14px;
 }
 
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #004daa;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* Media query for small screens */
 @media (max-width: 768px) {
-  .container-links {
-    flex-direction: column; /* Stack cards vertically on smaller screens */
+  .card-container {
+    flex-direction: column;
     align-items: center;
-  }
-  .full-width-height {
-    top: 40%;
-  }
-  nav {
-    padding: 0 1rem;
+    margin: 20px;
   }
 
-  .img-card {
-    max-width: 100%;
+  .card {
+    width: 100%;
+    margin: 10px 0;
+    height: auto;
   }
-}
-
-.hidden {
-  display: none;
 }
 </style>

@@ -19,7 +19,7 @@
   /* Your existing styles */
   
   .footer {
-    background: #004daa;
+    background: #90613f;
     color: #fff;
     text-align: center;
     padding: 20px 0;
