@@ -69,6 +69,9 @@ export default {
   height: 80vh;
 }
 
+a{
+  text-decoration: none;
+}
 .container::before {
   content: '';
   position: absolute;

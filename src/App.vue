@@ -1,17 +1,19 @@
 <script>
 import { RouterLink, RouterView } from 'vue-router'
+
 import Footer from './components/Footer.vue'
 export default {
-  data() {
-    return {
-      isDropdownOpen: false
-    }
-  },
-  methods: {
-    toggleDropdown() {
-      this.isDropdownOpen = !this.isDropdownOpen
-    }
-  }
+    data() {
+        return {
+            isDropdownOpen: false
+        };
+    },
+    methods: {
+        toggleDropdown() {
+            this.isDropdownOpen = !this.isDropdownOpen;
+        }
+    },
+    components: { Footer }
 }
 </script>
 
@@ -70,7 +72,7 @@ export default {
       </div>
     </section>
     <router-view></router-view>
-    <Footer />
+    <Footer/>
   </div>
 </template>
 
@@ -150,7 +152,7 @@ h1 {
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end
 }
 
 .navbar a {

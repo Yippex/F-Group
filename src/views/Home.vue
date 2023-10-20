@@ -32,7 +32,7 @@ import Footer from '../components/Footer.vue'
         <marquee behavior="" direction="" style="color: white; font-size: 3em"
           >WELCOME TO FANDF GREENER GROUP OF COMPANIES</marquee
         >
-        <img src="../src/assets/images/FandF.png" alt="" class="full-width-height" />
+        <img src="../assets/images/FandF.png" alt="" class="full-width-height" />
       </div>
       <div class="container-links center">
         <div class="img-card">
