@@ -1,6 +1,7 @@
 <script>
 import { RouterLink, RouterView } from 'vue-router'
-import Footer from './components/Footer.vue'
+import Footer from '../components/Footer.vue'
+
 </script>
 
 <template>
@@ -8,8 +9,8 @@ import Footer from './components/Footer.vue'
     <header>
       <nav>
         <div class="navbar">
-          <RouterLink to="/Home">Home</RouterLink>
-          <RouterLink to="/AgroAllied">Contact Us</RouterLink>
+          <a href="#home">Home</a>
+          <a href="#news">News</a>
           <div class="dropdown">
             <button class="dropbtn">
               Dropdown
@@ -17,8 +18,9 @@ import Footer from './components/Footer.vue'
             </button>
             <div class="dropdown-content">
               <RouterLink to="/AgroAllied">Agro Allied</RouterLink>
-              <routerLink to="/Fedas water service">Hotel Services</routerLink>
-              <RouterLink to="/Fedas Engineering">Engineering Co</RouterLink>
+              <routerLink to="/Fedas water service"></routerLink>
+              <RouterLink to="'/Fedas Engineering">Agro Allied</RouterLink>
+              
             </div>
           </div>
         </div>
@@ -133,6 +135,7 @@ h1 {
 }
 .navbar {
   overflow: hidden;
+ 
 }
 
 .navbar a {
@@ -150,7 +153,7 @@ h1 {
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 16px;  
   border: none;
   outline: none;
   color: white;
@@ -160,8 +163,7 @@ h1 {
   margin: 0;
 }
 
-.navbar a:hover,
-.dropdown:hover .dropbtn {
+.navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #004daa;
 }
 
@@ -170,7 +172,7 @@ h1 {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 

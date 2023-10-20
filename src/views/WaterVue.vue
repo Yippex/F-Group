@@ -7,13 +7,24 @@ export default {
 <template>
   <section>
     <div class="container">
-      <marquee behavior="" direction="" style="color: white; font-size: 4rem; margin-bottom: 1px;">WELCOME TO FEDAS HOTEL SERVICES CO LTD </marquee>
+      <marquee behavior="" direction="" style="color: white; font-size: 4rem; margin-bottom: 1px"
+        >WELCOME TO FEDAS HOTEL SERVICES CO LTD
+      </marquee>
       <div class="container-text">
-        <h2> Fedas Water Service Co LTD</h2>
+        <h2>FEDAS HOTEL SERVICES</h2>
+        <p >
+          At F&F Hotel Services, we are committed to providing an unforgettable and unparalleled
+          experience for our guests. Our mission is to be your trusted partner in hospitality,
+          ensuring your stay with us is not just comfortable but truly memorable.
+        </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet velit doloribus
-          sint dolorem laboriosam, natus dicta repellat rerum modi animi unde, reprehenderit vitae
-          blanditiis. Debitis aspernatur officiis quo magnam!
+          <span style="color: #004daa;">Your Home Away from Home</span> Whether you're traveling for leisure or business, F&F Hotel
+          Services aims to be your home away from home. We understand that every guest is unique,
+          and we tailor our services to cater to your individual preferences and needs. Come and
+          experience the magic of F&F Hotel Services. We invite you to immerse yourself in the
+          exceptional hospitality, comfort, and luxury that we offer. Your journey with us will be
+          filled with beautiful memories and the promise of returning to a place where you're not
+          just a guest but a valued part of our family.
         </p>
       </div>
     </div>
@@ -72,13 +83,55 @@ export default {
           </div>
         </RouterLink>
       </div>
+      <div class="img-card">
+        <RouterLink to="">
+          <img src="../assets/images/IMG-20231019-WA0042.jpg" alt="Company 4" />
+          <div class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
+            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
+            illo cupiditate vero commodi, odit, asperiores quibusdam!
+          </div>
+        </RouterLink>
+      </div>
+
+      <div class="img-card">
+        <RouterLink to="">
+          <img src="../assets/images/IMG-20231019-WA0021.jpg" alt="Company 4" />
+          <div class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
+            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
+            illo cupiditate vero commodi, odit, asperiores quibusdam!
+          </div>
+        </RouterLink>
+      </div>
+
+      <div class="img-card">
+        <RouterLink to="">
+          <img src="../assets/images/IMG-20231019-WA0026.jpg" alt="Company 4" />
+          <div class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
+            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
+            illo cupiditate vero commodi, odit, asperiores quibusdam!
+          </div>
+        </RouterLink>
+      </div>
+
+      <div class="img-card">
+        <RouterLink to="">
+          <img src="../assets/images/IMG-20231019-WA0033.jpg" alt="Company 4" />
+          <div class="card-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
+            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
+            illo cupiditate vero commodi, odit, asperiores quibusdam!
+          </div>
+        </RouterLink>
+      </div>
     </div>
   </section>
 </template>
 
 <style scoped>
-
-.gallery{
+.gallery {
   padding-top: 2%;
 }
 .centered-h1 {
@@ -99,7 +152,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); 
+  background: rgba(0, 0, 0, 0.5);
   filter: blur(10px); /* Adjust the blur amount as needed */
 }
 
@@ -125,13 +178,12 @@ export default {
 }
 
 .img-card {
-  flex: 1;
+  flex: 0 0 calc(25% - 20px); /* 25% width with 20px margin */
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 10px;
   margin: 10px;
   text-align: center;
-  max-width: 300px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
 }
 
@@ -152,6 +204,9 @@ export default {
   .container-links {
     flex-direction: column;
     align-items: center;
+  }
+  .container-text{
+    margin-top: 20px;
   }
   nav {
     padding: 0 1rem;
