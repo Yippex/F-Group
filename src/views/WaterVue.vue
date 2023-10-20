@@ -162,6 +162,9 @@ export default {
   position: relative; /* Position relative for z-index to work */
   z-index: 1; /* Place text above the blurred background */
 }
+a{
+  text-decoration: none;
+}
 
 .container-text {
   color: #fff;

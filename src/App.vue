@@ -1,6 +1,18 @@
 <script>
 import { RouterLink, RouterView } from 'vue-router'
 import Footer from './components/Footer.vue'
+export default {
+  data() {
+    return {
+      isDropdownOpen: false
+    }
+  },
+  methods: {
+    toggleDropdown() {
+      this.isDropdownOpen = !this.isDropdownOpen
+    }
+  }
+}
 </script>
 
 <template>
@@ -8,17 +20,21 @@ import Footer from './components/Footer.vue'
     <header>
       <nav>
         <div class="navbar">
-          <RouterLink to="/Home">Home</RouterLink>
-          <RouterLink to="/AgroAllied">Contact Us</RouterLink>
-          <div class="dropdown">
-            <button class="dropbtn">
-              Dropdown
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-              <RouterLink to="/AgroAllied">Agro Allied</RouterLink>
-              <routerLink to="/Fedas water service">Hotel Services</routerLink>
-              <RouterLink to="/Fedas Engineering">Engineering Co</RouterLink>
+          <div class="logo">
+            <RouterLink to="/Home">Home</RouterLink>
+          </div>
+          <div>
+            <RouterLink to="/AgroAllied">Contact Us</RouterLink>
+            <div class="dropdown" @click="toggleDropdown">
+              <button class="dropbtn">
+                Dropdown
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content" :class="{ open: isDropdownOpen }">
+                <RouterLink to="/AgroAllied">Agro Allied</RouterLink>
+                <RouterLink to="/Fedas water service">Hotel Services</RouterLink>
+                <RouterLink to="/Fedas Engineering">Engineering Co</RouterLink>
+              </div>
             </div>
           </div>
         </div>
@@ -132,7 +148,9 @@ h1 {
   color: black;
 }
 .navbar {
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navbar a {
