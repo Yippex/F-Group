@@ -43,13 +43,13 @@ import Footer from '../components/Footer.vue'
         </div>
         <div class="img-card">
           <RouterLink to="/Fedas water service">
-            <img src="./assets/water/IMG-20231019-WA0018.jpg" alt="Company 3" />
+            <img src="" alt="Company 3" />
             <div class="card-text">Fedas Water Services Ltd.</div>
           </RouterLink>
         </div>
         <div class="img-card">
           <RouterLink to="/Fedas Engineering">
-            <img src="./assets/images/IMG-20231019-WA0088.jpg" alt="Company 4" />
+            <img src="" alt="Company 4" />
             <div class="card-text">F&F Greener Engineering Co Ltd</div>
           </RouterLink>
         </div>
