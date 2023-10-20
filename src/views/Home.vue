@@ -5,6 +5,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <div class="landing">
     <div id="landing-page">
+      <marquee behavior="" direction="" style="font-size: 3rem; color: greenyellow;">WELCOME TO FANDF GREENER GROUP OF COMPANIES</marquee>
       <div class="background">
         <!-- Background image -->
         <img src="../assets/images/FandF.png" alt="Background Image" />
