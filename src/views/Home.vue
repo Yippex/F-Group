@@ -37,7 +37,7 @@ import Footer from '../components/Footer.vue'
       <div class="container-links center">
         <div class="img-card">
           <RouterLink to="/AgroAllied">
-            <img src="../assets/farm/IMG-20231019-WA0036.jpg" alt="Company 2" />
+            <img src="" alt="Company 2" />
             <div class="card-text">Fedas Agro Allied Farms Ltd</div>
           </RouterLink>
         </div>
