@@ -5,16 +5,19 @@ import { RouterLink, RouterView } from 'vue-router'
 <template>
   <div class="landing">
     <div id="landing-page">
-      <marquee behavior="" direction="" style="font-size: 3rem; color: greenyellow;">WELCOME TO FANDF GREENER GROUP OF COMPANIES</marquee>
+      <marquee behavior="" direction="" style="font-size: 3rem; color: greenyellow"
+        >WELCOME TO FANDF GREENER GROUP OF COMPANIES</marquee
+      >
       <div class="background">
         <!-- Background image -->
         <img src="../assets/images/FandF.png" alt="Background Image" />
       </div>
       <div class="content">
         <h1>Welcome to FandF Greener Group of Companies</h1>
-        <p>
-          This is a simple landing page example with a background image that covers 80% of the
-          viewport height. You can customize it to suit your needs.
+        <p style="font-size: 1.25rem;">
+          I Chief Aare OLUWAYAYO OLUWADARE Chairman C.E.O.F&F GROUP OF COMPANIES A POTENTIAL NIGERIA
+          BUSINESS MAN AND PHILANTHROPY, CHIEF OLUWADARE WAS BORN IN EKITI STATE HE OBTAIN HIS
+          EDUCATION WITHIN NIGERIA.
         </p>
       </div>
     </div>
@@ -96,7 +99,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-   /* Adjusted to 100vh */
+  /* Adjusted to 100vh */
   gap: 20px;
   margin-top: 50px;
 }

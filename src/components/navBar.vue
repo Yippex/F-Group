@@ -17,16 +17,16 @@ export default {
     <nav>
       <div class="navbar">
         <div class="logo">
-          <RouterLink to="/">Home</RouterLink>
+          <RouterLink to="/"><img src="../assets/Untitled-1.svg" alt=""></RouterLink>
         </div>
         <div>
           <RouterLink to="/AgroAllied">Contact Us</RouterLink>
           <div class="dropdown" @click="toggleDropdown">
             <button class="dropbtn">
-              Dropdown
+              Companies
               <i class="fa fa-caret-down"></i>
             </button>
-            <div class="dropdown-content" :class="{ open: isDropdownOpen }">
+            <div class="dropdown-content" :class="{ open: isDropdownOpen }" style="color: black;">
               <RouterLink to="/AgroAllied">Agro Allied</RouterLink>
               <RouterLink to="/Fedas water service">Hotel Services</RouterLink>
               <RouterLink to="/Fedas Engineering">Engineering Co</RouterLink>
@@ -41,17 +41,25 @@ export default {
 <style scoped>
 nav{
   background:#90613f;
+  
+  
+}
+.logo img{
+  width: 70px;
+  height: 70px;
 }
 .navbar {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
+  padding: 0 8rem;
+  
 }
 
 .navbar a {
   float: left;
   font-size: 16px;
-
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -106,5 +114,10 @@ nav{
 a{
   text-decoration: none;
   color: white;
+}
+@media (max-width: 789px) {
+  .navbar{
+    padding: 0 0.4rem;
+  }
 }
 </style>
