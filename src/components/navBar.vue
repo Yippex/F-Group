@@ -28,8 +28,8 @@ export default {
             </button>
             <div class="dropdown-content" :class="{ open: isDropdownOpen }" style="color: black;">
               <RouterLink to="/AgroAllied">Agro Allied</RouterLink>
-              <RouterLink to="/Fedas water service">Hotel Services</RouterLink>
-              <RouterLink to="/Fedas Engineering">Engineering Co</RouterLink>
+              <RouterLink to="/hotel">Hotel Services</RouterLink>
+              <RouterLink to="/Engineering">Engineering Co</RouterLink>
             </div>
           </div>
         </div>

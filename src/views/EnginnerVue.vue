@@ -1,14 +1,22 @@
 <script>
 export default {
-  setup() {}
-}
+  data() {
+    return {
+      images: [
+        { src: "image1.jpg", alt: "Image 1", text: "Text for Image 1" },
+        { src: "image2.jpg", alt: "Image 2", text: "Text for Image 2" },
+        { src: "image3.jpg", alt: "Image 3", text: "Text for Image 3" },
+      ],
+    };
+  },
+};
 </script>
 
 <template>
   <section>
     <div class="image-slider">
       <div class="slide" v-for="(image, index) in images" :key="index">
-        <img :src="image.src" :alt="image.alt" />
+        <img :src="require(`@/assets/images/${image.src}`)" :alt="image.alt" />
         <div class="image-text">{{ image.text }}</div>
       </div>
     </div>
