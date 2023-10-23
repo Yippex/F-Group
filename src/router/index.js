@@ -16,7 +16,7 @@ const router = createRouter({
     component: AgroAllied
    },
    {
-    path:'/Fedas water service',
+    path:'/hotel service',
     component: Water
    },
    {
