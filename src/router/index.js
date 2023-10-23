@@ -16,11 +16,11 @@ const router = createRouter({
     component: AgroAllied
    },
    {
-    path:'/hotel service',
+    path:'/hotel',
     component: Water
    },
    {
-    path:'/Fedas Engineering',
+    path:'/Engineering',
     component :EnginVue
    }
     

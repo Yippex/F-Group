@@ -28,7 +28,7 @@ import { RouterLink, RouterView } from 'vue-router'
       </div>
 
       <div class="card-item">
-        <router-link to="/hotel service" class="card">
+        <router-link to="/hotel" class="card">
           <img src="../assets/images/IMG-20231019-WA0037.jpg" alt="Card Image" class="card-image" />
           <div class="card-description">
             <h2>Hotel Services</h2>
@@ -37,7 +37,7 @@ import { RouterLink, RouterView } from 'vue-router'
       </div>
 
       <div class="card-item">
-        <router-link to="/Fedas Engineering" class="card">
+        <router-link to="/Engineering" class="card">
           <img src="../assets/engineering/IMG-20231019-WA0039.jpg" alt="Card Image" class="card-image" />
           <div class="card-description">
             <h2>Engineering Co Ltd</h2>

@@ -6,14 +6,10 @@ export default {
 
 <template>
   <section>
-    <div class="container">
-      <marquee behavior="" direction="" style="color: white; font-size: 3REM;">WELCOME TO FANDF ENGINEERING CO LTD</marquee>
-      <div class="container-text">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet velit doloribus
-          sint dolorem laboriosam, natus dicta repellat rerum modi animi unde, reprehenderit vitae
-          blanditiis. Debitis aspernatur officiis quo magnam!
-        </p>
+    <div class="image-slider">
+      <div class="slide" v-for="(image, index) in images" :key="index">
+        <img :src="image.src" :alt="image.alt" />
+        <div class="image-text">{{ image.text }}</div>
       </div>
     </div>
   </section>
@@ -55,7 +51,7 @@ export default {
 </template>
 
 <style scoped>
- .gallery{
+.gallery {
   padding-top: 2%;
 }
 .centered-h1 {
@@ -69,7 +65,7 @@ export default {
   height: 80vh;
 }
 
-a{
+a {
   text-decoration: none;
 }
 .container::before {
@@ -79,7 +75,7 @@ a{
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4); 
+  background: rgba(0, 0, 0, 0.4);
   filter: blur(1); /* Adjust the blur amount as needed */
 }
 
@@ -125,7 +121,30 @@ a{
   font-weight: bold;
   color: #333;
 }
+.image-slider {
+  display: flex;
+  overflow: hidden;
+}
 
+.slide {
+  position: relative;
+  flex: 0 0 100%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.image-text {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
 /* Media query for small screens */
 @media (max-width: 768px) {
   .container-links {
