@@ -31,7 +31,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <router-link to="/hotel" class="card">
           <img src="../assets/images/IMG-20231019-WA0037.jpg" alt="Card Image" class="card-image" />
           <div class="card-description">
-            <h2>Hotel Services</h2>
+            <h2>KSSD Hotel</h2>
           </div>
         </router-link>
       </div>

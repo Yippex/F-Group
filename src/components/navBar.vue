@@ -17,7 +17,7 @@ export default {
     <nav>
       <div class="navbar">
         <div class="logo">
-          <RouterLink to="/"><img src="../assets/Untitled-1.svg" alt=""></RouterLink>
+          <RouterLink to="/"><img src="../assets/logo.jpeg" alt=""></RouterLink>
         </div>
         <div>
           <RouterLink to="/AgroAllied">Contact Us</RouterLink>
@@ -39,11 +39,7 @@ export default {
 </template>
 
 <style scoped>
-nav{
-  background:#90613f;
-  
-  
-}
+
 .logo img{
   width: 70px;
   height: 70px;
@@ -58,8 +54,8 @@ nav{
 
 .navbar a {
   float: left;
-  font-size: 16px;
-  color: white;
+  font-size: 20px;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -71,17 +67,17 @@ nav{
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 20px;
   border: none;
   outline: none;
-  color: white;
+  color: black;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
 }
 
-.navbar a:hover,
+
 .dropdown:hover .dropbtn {
   background-color: #90613f;
 }
