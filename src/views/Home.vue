@@ -106,7 +106,7 @@ import Footer from '../components/Footer.vue'
 .bio {
   font-size: 16px;
   line-height: 1.4;
-  color: #666;
+  color: #000;
 }
 
 h1 {
