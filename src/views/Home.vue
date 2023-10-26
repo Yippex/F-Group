@@ -1,19 +1,21 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import Footer from '../components/Footer.vue';
+import Footer from '../components/Footer.vue'
 </script>
 
 <template>
   <div class="landing">
     <div class="about-me">
-      <marquee behavior="" direction="" style="font-size: 2em; color: limegreen;">WELCOME TO F&F GREENER GROUP OF COMPANIES</marquee>
+      <marquee behavior="" direction="" style="font-size: 2em; color: limegreen"
+        >WELCOME TO F&F GREENER GROUP OF COMPANIES</marquee
+      >
       <div class="custom-card">
         <div class="about-me-content">
-          <img src="../assets/hotel/FandF.png" alt="Profile Image" class="profile-image" />
+          <img src="../assets/CEO1.jpg" alt="Profile Image" class="profile-image" />
           <p class="bio">
-            I Chief Aare OLUWAYAYO OLUWADARE Chairman C.E.O.F&F GROUP OF COMPANIES A POTENTIAL
-            NIGERIA BUSINESS MAN AND PHILANTHROPY, CHIEF OLUWADARE WAS BORN IN EKITI STATE HE OBTAIN
-            HIS EDUCATION WITHIN NIGERIA.
+            I chief Aare Oluwayayo Oluwadare chairman c.e.o. of f&f group of companies a potential
+            nigeria business man and philanthropy, chief oluwadare was born in ekiti state he obtain
+            his education within nigeria.
           </p>
         </div>
       </div>
@@ -22,13 +24,9 @@ import Footer from '../components/Footer.vue';
     <div class="card-container">
       <div class="card-item">
         <router-link to="/Engineering" class="card">
-          <img
-            src="../assets/engineering/tractor1.jpeg"
-            alt="Card Image"
-            class="card-image"
-          />
+          <img src="../assets/engineering/tractor1.jpeg" alt="Card Image" class="card-image" />
           <div class="card-description">
-            <h2> F&F Greener Engineering Co Ltd</h2>
+            <h2>F&F Greener Engineering Co Ltd</h2>
           </div>
         </router-link>
       </div>
@@ -62,18 +60,14 @@ import Footer from '../components/Footer.vue';
 
       <div class="card-item">
         <router-link to="/Stores" class="card">
-          <img
-            src="../assets/stores/store2.jpeg"
-            alt="Card Image"
-            class="card-image"
-          />
+          <img src="../assets/stores/store2.jpeg" alt="Card Image" class="card-image" />
           <div class="card-description">
-            <h2> F&F  Stores and Supermarket</h2>
+            <h2>F&F Stores and Supermarket</h2>
           </div>
         </router-link>
       </div>
     </div>
-    <Footer/>
+    <Footer />
   </div>
 </template>
 
@@ -84,8 +78,7 @@ import Footer from '../components/Footer.vue';
 .about-me {
   text-align: center;
   padding: 20px;
-  background: #fcefee;
-  
+  background: #e2b98d;
 }
 
 .custom-card {
@@ -105,7 +98,7 @@ import Footer from '../components/Footer.vue';
 .profile-image {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   object-fit: cover;
   margin: 20px auto;
 }
