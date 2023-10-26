@@ -11,10 +11,11 @@ export default {
         >WELCOME TO FEDAS WATER SERVICES LTD</marquee
       >
       <div class="container-text">
+        <h1>FEDAS Water Service Ltd is a leading provider of high-quality water solutions.</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet velit doloribus
-          sint dolorem laboriosam, natus dicta repellat rerum modi animi unde, reprehenderit vitae
-          blanditiis. Debitis aspernatur officiis quo magnam!
+          ith a commitment to excellence and a dedication to serving communities, we offer a wide
+          range of water services and products designed to meet the needs of our customers. Our team
+          of experts is passionate about water conservation, purity, and efficient delivery.
         </p>
       </div>
     </div>
@@ -128,10 +129,18 @@ a {
 .container-text {
   color: #fff;
   position: relative;
-  margin-top: 150px;
+  margin-top: 50px;
   z-index: 1; /* Place text above the blurred background */
   text-align: center; /* Center-align the text */
 }
+
+.container-text h1 {
+  font-size: 2.6em;
+}
+ .container-text p{
+  font-size: 1.5em;
+  margin-top: 10px;
+ }
 .container-links {
   display: flex;
   flex-wrap: wrap;
@@ -152,8 +161,8 @@ a {
 }
 
 .img-card img {
-  max-width: 100%; 
-  max-height: 100; 
+  max-width: 100%;
+  max-height: 100;
 }
 
 .card-text {
@@ -174,6 +183,12 @@ a {
 
   .img-card {
     max-width: 100%;
+  }
+  .container-text h1{
+    font-size: 1.5em;
+  }
+  .container-text p{
+    font-size: 17px;
   }
 }
 </style>

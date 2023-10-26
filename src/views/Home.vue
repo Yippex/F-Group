@@ -13,7 +13,7 @@ import Footer from '../components/Footer.vue'
         <div class="about-me-content">
           <img src="../assets/CEO1.jpg" alt="Profile Image" class="profile-image" />
           <p class="bio">
-            I Chief Aare Oluwayayo Oluwadare chairman c.e.o. of f&f group of companies a potential
+            I Chief Aare Oluwayayo Oluwadare Chairman C.E.O. of F and F group of companies a potential
             Nigeria business man and philanthropy, Chief Oluwadare was born in Ekiti state he obtain
             his education within Nigeria.
           </p>
