@@ -1,6 +1,4 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
   <section>
@@ -9,15 +7,14 @@
         >WELCOME TO FEDAS HOTEL SERVICES CO LTD
       </marquee>
       <div class="container-text">
-        <h2 style="font-size: 2em;">FEDAS HOTEL SERVICES</h2>
-       
-        <p style="margin-top: 20px; font-size: 1.5em;">
-           Home Away from HomeWhether you're traveling for leisure or business, F&F Hotel
-          Services aims to be your home away from home. Come and
-          experience the magic of F&F Hotel Services. We invite you to immerse yourself in the
-          exceptional hospitality, comfort, and luxury that we offer. Your journey with us will be
-          filled with beautiful memories and the promise of returning to a place where you're not
-          just a guest but a valued part of our family.
+        <h2 style="font-size: 2em">FEDAS HOTEL SERVICES</h2>
+
+        <p style="margin-top: 20px; font-size: 1.5em">
+          Home Away from HomeWhether you're traveling for leisure or business, F&F Hotel Services
+          aims to be your home away from home. Come and experience the magic of F&F Hotel Services.
+          We invite you to immerse yourself in the exceptional hospitality, comfort, and luxury that
+          we offer. Your journey with us will be filled with beautiful memories and the promise of
+          returning to a place where you're not just a guest but a valued part of our family.
         </p>
       </div>
     </div>
@@ -29,9 +26,10 @@
         <RouterLink to="/AgroAllied">
           <img src="../assets/hotel/hotel1.jpg" alt="Company 2" />
           <div class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus repellat laborum
-            mollitia fugit expedita libero vel quia in. Officiis iste voluptatibus maiores dolorum
-            suscipit rem fugit dignissimos molestias et repellendus.
+            The hotel building stands as a beacon of comfort and luxury, offering a welcoming
+            retreat for travelers from all walks of life. Its architectural design harmoniously
+            blends modern sophistication with a touch of local charm, creating a visually striking
+            and memorable presence.
           </div>
         </RouterLink>
       </div>
@@ -39,90 +37,59 @@
         <RouterLink to="/company3">
           <img src="../assets/hotel/hotel2.jpg" alt="Company 3" />
           <div class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quidem non animi vero,
-            voluptate debitis vitae molestiae nesciunt alias officiis eaque porro voluptatibus
-            numquam quas nulla excepturi, id rem doloremque.
+            A well furnished room houghtfully furnished to provide a relaxing and pleasant
+            environment for guests during their stay.
           </div>
         </RouterLink>
       </div>
-     
+
       <div class="img-card">
         <RouterLink to="/company4">
           <img src="../assets/hotel/hotel3.jpg" alt="Company 4" />
           <div class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
-            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
-            illo cupiditate vero commodi, odit, asperiores quibusdam!
+            Design and furnished to give you the best relaxation and entertainment
           </div>
         </RouterLink>
       </div>
       <div class="img-card">
         <RouterLink to="/company4">
           <img src="../assets/hotel/hotel4.jpg" alt="Company 4" />
-          <div class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
-            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
-            illo cupiditate vero commodi, odit, asperiores quibusdam!
-          </div>
+          <div class="card-text">Standard room for your comfort</div>
         </RouterLink>
       </div>
 
       <div class="img-card">
         <RouterLink to="/company4">
           <img src="../assets/hotel/hotel5.jpg" alt="Company 4" />
-          <div class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
-            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
-            illo cupiditate vero commodi, odit, asperiores quibusdam!
-          </div>
+          <div class="card-text">Beautiful artistic design</div>
         </RouterLink>
       </div>
       <div class="img-card">
         <RouterLink to="">
           <img src="../assets/hotel/hotel6.jpg" alt="Company 4" />
-          <div class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
-            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
-            illo cupiditate vero commodi, odit, asperiores quibusdam!
-          </div>
+          <div class="card-text">Outdoor relaxationn view</div>
         </RouterLink>
       </div>
       <div class="img-card">
         <RouterLink to="">
           <img src="../assets/hotel/hotel7.jpg" alt="Company 4" />
-          <div class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
-            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
-            illo cupiditate vero commodi, odit, asperiores quibusdam!
-          </div>
+          <div class="card-text">Executive suit</div>
         </RouterLink>
       </div>
 
       <div class="img-card">
         <RouterLink to="">
           <img src="../assets/hotel/hotel8.jpg" alt="Company 4" />
-          <div class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
-            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
-            illo cupiditate vero commodi, odit, asperiores quibusdam!
-          </div>
+          <div class="card-text">Build with the best architectural design</div>
         </RouterLink>
       </div>
-
-      <div class="img-card">
-        <RouterLink to="">
-          <img src="../assets/hotel/hotel9.jpg" alt="Company 4" />
-          <div class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
-            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
-            illo cupiditate vero commodi, odit, asperiores quibusdam!
-          </div>
-        </RouterLink>
-      </div>
-
-      
     </div>
   </section>
+  <footer>
+    <div class="footer-text">
+      <p>KSSD HOTEL LTD ALONG NTA OFF ILAWE ROAD, <br> ADO EKITI TEL..09036321835.</p>
+    </div>
+  </footer>
 </template>
 
 <style scoped>
@@ -158,10 +125,20 @@
   position: relative; /* Position relative for z-index to work */
   z-index: 1; /* Place text above the blurred background */
 }
-a{
+a {
   text-decoration: none;
 }
-
+footer {
+  height: 90px;
+  background: #90613f;
+}
+.footer-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px 0;
+}
 .container-text {
   color: #fff;
   position: relative;
@@ -204,7 +181,7 @@ a{
     flex-direction: column;
     align-items: center;
   }
-  .container-text{
+  .container-text {
     margin-top: 20px;
   }
   nav {
