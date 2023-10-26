@@ -13,7 +13,7 @@ export default {
       <div class="container-text">
         <h1>FEDAS Water Service Ltd is a leading provider of high-quality water solutions.</h1>
         <p>
-          ith a commitment to excellence and a dedication to serving communities, we offer a wide
+          With a commitment to excellence and a dedication to serving communities, we offer a wide
           range of water services and products designed to meet the needs of our customers. Our team
           of experts is passionate about water conservation, purity, and efficient delivery.
         </p>
