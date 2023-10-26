@@ -7,46 +7,44 @@ export default {
 <template>
   <section>
     <div class="container">
+      <marquee behavior="" direction="" style="color: white; font-size: 3rem"
+        >WELCOME TO FEDAS WATER SERVICES LTD</marquee
+      >
       <div class="container-text">
-        <marquee behavior="" direction="" style="color: white; font-size: 3rem"
-          >WELCOME TO FANDF ENGINEERING CO LTD</marquee
-        >
-        <h1>F&F Engineering Co Ltd: Pioneering Innovation in Engineering Excellence</h1>
         <p>
-          At F&F Engineering Co Ltd, our commitment to excellence in engineering knows no bounds.
-          With a proud legacy spanning over four decades, we have continually evolved and adapted to
-          meet the ever-changing needs of the engineering industry. Our dedication to quality,
-          innovation, and customer satisfaction has solidified our position as a trusted leader in
-          the field.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet velit doloribus
+          sint dolorem laboriosam, natus dicta repellat rerum modi animi unde, reprehenderit vitae
+          blanditiis. Debitis aspernatur officiis quo magnam!
         </p>
       </div>
     </div>
   </section>
   <section class="gallery">
-    <h1 class="centered-h1">Image Gallery</h1>
+    <h1 class="centered-h1">Fedas Water Services</h1>
     <div class="container-links">
       <div class="img-card">
         <RouterLink to="/AgroAllied">
-          <img src="../assets/engineering/tractor3.jpeg" alt="Company 2" />
+          <img src="../assets/borehole/borehole1.jpg" alt="Company 2" />
           <div class="card-text">
-            A massive yellow bulldozer, its blade gleaming in the sunlight, ready to move earth and
-            shape the landscape.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus repellat laborum
+            mollitia fugit expedita libero vel quia in. Officiis iste voluptatibus maiores dolorum
+            suscipit rem fugit dignissimos molestias et repellendus.
           </div>
         </RouterLink>
       </div>
-      <!-- <div class="img-card">
+      <div class="img-card">
         <RouterLink to="/company3">
-          <img src="../assets/engineering/tractor1.jpeg" alt="Company 3" />
+          <img src="../assets/borehole/boreholde4.jpg" alt="Company 3" />
           <div class="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quidem non animi vero,
             voluptate debitis vitae molestiae nesciunt alias officiis eaque porro voluptatibus
             numquam quas nulla excepturi, id rem doloremque.
           </div>
         </RouterLink>
-      </div> -->
+      </div>
       <div class="img-card">
         <RouterLink to="/company4">
-          <img src="../assets/engineering/tractor2.jpeg" alt="Company 4" />
+          <img src="../assets/borehole/borehole5.png" alt="Company 4" />
           <div class="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
             dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
@@ -56,7 +54,7 @@ export default {
       </div>
       <div class="img-card">
         <RouterLink to="/company4">
-          <img src="../assets/engineering/tractor4.jpeg" alt="Company 4" />
+          <img src="../assets/borehole/borehole7.jpg" alt="Company 4" />
           <div class="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
             dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
@@ -67,20 +65,22 @@ export default {
 
       <div class="img-card">
         <RouterLink to="/company4">
-          <img src="../assets/engineering/tractor5.jpeg" alt="Company 4" />
+          <img src="../assets/borehole/borehole9.jpg" alt="Company 4" />
           <div class="card-text">
-            A car transporter truck, often known as a car carrier, is a specialized vehicle designed
-            for transporting multiple vehicles.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
+            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
+            illo cupiditate vero commodi, odit, asperiores quibusdam!
           </div>
         </RouterLink>
       </div>
 
       <div class="img-card">
         <RouterLink to="/company4">
-          <img src="../assets/engineering/tractor6.jpeg" alt="Company 4" />
+          <img src="../assets/borehole/borehole10.jpg" alt="Company 4" />
           <div class="card-text">
-            A massive yellow bulldozer, its blade gleaming in the sunlight, ready to move earth and
-            shape the landscape.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
+            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
+            illo cupiditate vero commodi, odit, asperiores quibusdam!
           </div>
         </RouterLink>
       </div>
@@ -97,11 +97,11 @@ export default {
 }
 .container {
   position: relative;
-  background-image: url('../assets/engineering/tractor4.jpeg');
+  background-image: url('../assets/borehole/borehole11.jpg'); /* Replace with your background image path */
   background-size: cover;
-  padding: 20px;
-  height: 80vh;
   background-position: center;
+  padding: 20px;
+  height: 90vh;
 }
 
 a {
@@ -132,13 +132,6 @@ a {
   z-index: 1; /* Place text above the blurred background */
   text-align: center; /* Center-align the text */
 }
-.container-text h1 {
-  font-size: 3em;
-}
-.container-text p {
-  font-size: 1.5em;
-  margin-top: 30px;
-}
 .container-links {
   display: flex;
   flex-wrap: wrap;
@@ -147,19 +140,20 @@ a {
 }
 
 .img-card {
-  flex: 0 0 calc(35% - 20px);
+  flex: 0 0 calc(25% - 20px);
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 10px;
   margin: 10px;
   text-align: center;
   max-width: 300px;
+
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
 }
 
 .img-card img {
-  max-width: 100%;
-  height: auto;
+  max-width: 100%; 
+  max-height: 100; 
 }
 
 .card-text {
@@ -180,12 +174,6 @@ a {
 
   .img-card {
     max-width: 100%;
-  }
-  .container-text h1 {
-    font-size: 1.5em;
-  }
-  .container-text p {
-    font-size: 1em;
   }
 }
 </style>

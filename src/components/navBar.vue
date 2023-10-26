@@ -17,7 +17,7 @@ export default {
     <nav>
       <div class="navbar">
         <div class="logo">
-          <RouterLink to="/"><img src="../assets/logo.jpeg" alt=""></RouterLink>
+          <RouterLink to="/"><img src="../assets/logo.png" alt=""></RouterLink>
         </div>
         <div>
           <RouterLink to="/AgroAllied">Contact Us</RouterLink>
@@ -27,9 +27,10 @@ export default {
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content" :class="{ open: isDropdownOpen }" style="color: black;">
+              <RouterLink to="/Engineering">Engineering Co</RouterLink>
               <RouterLink to="/AgroAllied">Agro Allied</RouterLink>
               <RouterLink to="/hotel">Hotel Services</RouterLink>
-              <RouterLink to="/Engineering">Engineering Co</RouterLink>
+              
             </div>
           </div>
         </div>
@@ -39,7 +40,9 @@ export default {
 </template>
 
 <style scoped>
-
+nav{
+  
+}
 .logo img{
   width: 70px;
   height: 70px;

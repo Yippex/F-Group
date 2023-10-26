@@ -1,8 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import AgroAllied from '../views/AgroAllied.vue'
-import Water from '../views/WaterVue.vue'
+import Water from '../views/Hotel.vue'
 import EnginVue from '../views/EnginnerVue.vue'
 import Home from '../views/Home.vue'
+import FedasWater from '../views/FedasWater.vue'
+import Stores from '../views/Stores.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -22,6 +24,14 @@ const router = createRouter({
    {
     path:'/Engineering',
     component :EnginVue
+   },
+   {
+    path: '/FedasWater',
+    component: FedasWater
+   },
+   {
+    path:'/Stores',
+    component: Stores
    }
     
   ]

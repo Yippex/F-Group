@@ -7,12 +7,17 @@ export default {
 <template>
   <section>
     <div class="container">
-      <marquee behavior="" direction="" style="color: white; font-size: 3rem;">WELCOME TO FEDAS AGRO ALLIED FARM LTD</marquee>
+      <marquee behavior="" direction="" style="color: white; font-size: 3rem"
+        >WELCOME TO FEDAS AGRO ALLIED FARM LTD</marquee
+      >
       <div class="container-text">
+        <h1>Fedas Agro Allied Farm Ltd: Cultivating Excellence</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet velit doloribus
-          sint dolorem laboriosam, natus dicta repellat rerum modi animi unde, reprehenderit vitae
-          blanditiis. Debitis aspernatur officiis quo magnam!
+          FEDAS Agro Allied Farm Ltd, we are committed to redefining the future of agriculture.
+          Established with a vision to create a sustainable and thriving agro-allied enterprise, we
+          have grown to become a trusted name in the industry. Our unwavering dedication to
+          innovation, quality, and responsible farming practices has set us apart as a leader in the
+          field.
         </p>
       </div>
     </div>
@@ -22,40 +27,79 @@ export default {
     <div class="container-links">
       <div class="img-card">
         <RouterLink to="/AgroAllied">
-          <img src="../assets/farm/IMG-20231019-WA0019.jpg" alt="Company 2" />
-          <div class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus repellat laborum
-            mollitia fugit expedita libero vel quia in. Officiis iste voluptatibus maiores dolorum
-            suscipit rem fugit dignissimos molestias et repellendus.
-          </div>
+          <img src="../assets/farm/farm1.jpg" alt="Company 2" />
+          <div class="card-text">Pig farm</div>
         </RouterLink>
       </div>
       <div class="img-card">
         <RouterLink to="/company3">
-          <img src="../assets/farm/IMG-20231019-WA0048.jpg" alt="Company 3" />
+          <img src="../assets/farm/farm2.jpg" alt="Company 3" />
+          <div class="card-text">Cassava grinding engine</div>
+        </RouterLink>
+      </div>
+      <div class="img-card">
+        <RouterLink to="/company4">
+          <img src="../assets/farm/farm3.jpg" alt="Company 4" />
+          <div class="card-text">Rabbit farm and healthy Rabbit in it</div>
+        </RouterLink>
+      </div>
+
+      <div class="img-card">
+        <RouterLink to="/company4">
+          <img src="../assets/farm/farm4.jpg" alt="Company 4" />
+          <div class="card-text">Rice Processing Milling Engine</div>
+        </RouterLink>
+      </div>
+
+      <div class="img-card">
+        <RouterLink to="/company4">
+          <img src="../assets/farm/farm5.jpg" alt="Company 4" />
+          <div class="card-text">Healthy Pineapple farm</div>
+        </RouterLink>
+      </div>
+
+      <div class="img-card">
+        <RouterLink to="/company4">
+          <img src="../assets/farm/farm6.jpg" alt="Company 4" />
           <div class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quidem non animi vero,
-            voluptate debitis vitae molestiae nesciunt alias officiis eaque porro voluptatibus
-            numquam quas nulla excepturi, id rem doloremque.
+            A spacious metal birdcage with a colorful, contented bird perched on a wooden branch,
+            bathed in gentle sunlight.
           </div>
         </RouterLink>
       </div>
       <div class="img-card">
         <RouterLink to="/company4">
-          <img src="../assets/farm/IMG-20231019-WA0051.jpg" alt="Company 4" />
+          <img src="../assets/farm/farm7.jpg" alt="Company 4" />
           <div class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
-            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
-            illo cupiditate vero commodi, odit, asperiores quibusdam!
+            In the poultry farm, a diligent man in work attire tends to the flock, ensuring their
+            well-being and the smooth operation of the farm.
+          </div>
+        </RouterLink>
+      </div>
+
+      <div class="img-card">
+        <RouterLink to="/company4">
+          <img src="../assets/farm/farm8.jpg" alt="Company 4" />
+          <div class="card-text">
+            The cage is thoughtfully designed, with ample room for the bird to spread its wings and
+            a variety of perches and toys for its enrichment.
           </div>
         </RouterLink>
       </div>
     </div>
+    <footer>
+      <div class="footer-text">
+        <p>
+          FEDAS AGRO ALLIED FARMS LTD BEHIND IREWOLEDE ESTATE,<br />
+          OFF ILAWE ROAD, ADO EKITI, EKITI STATE
+        </p>
+      </div>
+    </footer>
   </section>
 </template>
 
 <style scoped>
- .gallery{
+.gallery {
   padding-top: 2%;
 }
 .centered-h1 {
@@ -63,13 +107,14 @@ export default {
 }
 .container {
   position: relative;
-  background-image: url('../assets/farm/IMG-20231019-WA0048.jpg'); /* Replace with your background image path */
+  background-image: url('../assets/farm/farm5.jpg'); /* Replace with your background image path */
   background-size: cover;
   padding: 20px;
   height: 80vh;
+  background-position: center;
 }
 
-a{
+a {
   text-decoration: none;
 }
 .container::before {
@@ -79,7 +124,7 @@ a{
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4); 
+  background: rgba(0, 0, 0, 0.4);
   filter: blur(1); /* Adjust the blur amount as needed */
 }
 
@@ -97,16 +142,22 @@ a{
   z-index: 1; /* Place text above the blurred background */
   text-align: center; /* Center-align the text */
 }
+.container-text h1 {
+  font-size: 3em;
+}
+.container-text p {
+  font-size: 1.5em;
+  margin-top: 30px;
+}
 .container-links {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
-  
 }
 
 .img-card {
-  flex: 1;
+  flex: 0 0 calc(25% - 20px);
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 10px;
@@ -126,6 +177,18 @@ a{
   font-weight: bold;
   color: #333;
 }
+footer {
+  height: 80px;
+  background: #90613f;
+}
+.footer-text{
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+  color: white;
+  padding-top: 20px;
+  
+}
 
 /* Media query for small screens */
 @media (max-width: 768px) {
@@ -139,6 +202,12 @@ a{
 
   .img-card {
     max-width: 100%;
+  }
+  .container-text h1 {
+    font-size: 1.5em;
+  }
+  .container-text p {
+    font-size: 1em;
   }
 }
 </style>

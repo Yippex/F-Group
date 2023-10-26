@@ -1,7 +1,5 @@
-<script>
-export default {
-  setup() {}
-}
+<script setup>
+
 </script>
 
 <template>
@@ -12,7 +10,7 @@ export default {
       </marquee>
       <div class="container-text">
         <h2>FEDAS HOTEL SERVICES</h2>
-        <p >
+        <p style="margin-bottom: 1rem; font-size: 1.5em;" >
           At F&F Hotel Services, we are committed to providing an unforgettable and unparalleled
           experience for our guests. Our mission is to be your trusted partner in hospitality,
           ensuring your stay with us is not just comfortable but truly memorable.
@@ -52,16 +50,7 @@ export default {
           </div>
         </RouterLink>
       </div>
-      <div class="img-card">
-        <RouterLink to="/company4">
-          <img src="../assets/images/IMG-20231019-WA0033.jpg" alt="Company 4" />
-          <div class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
-            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
-            illo cupiditate vero commodi, odit, asperiores quibusdam!
-          </div>
-        </RouterLink>
-      </div>
+     
       <div class="img-card">
         <RouterLink to="/company4">
           <img src="../assets/images/IMG-20231019-WA0042.jpg" alt="Company 4" />
@@ -136,16 +125,7 @@ export default {
         </RouterLink>
       </div>
 
-      <div class="img-card">
-        <RouterLink to="">
-          <img src="../assets/images/IMG-20231019-WA0033.jpg" alt="Company 4" />
-          <div class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
-            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
-            illo cupiditate vero commodi, odit, asperiores quibusdam!
-          </div>
-        </RouterLink>
-      </div>
+      
     </div>
   </section>
 </template>
@@ -159,8 +139,9 @@ export default {
 }
 .container {
   position: relative;
-  background-image: url('../assets/water/IMG-20231019-WA0018.jpg'); /* Replace with your background image path */
+  background-image: url('../assets/images/IMG-20231019-WA0021.jpg'); /* Replace with your background image path */
   background-size: cover;
+  background-position: center;
   padding: 10px;
   height: 80vh;
 }

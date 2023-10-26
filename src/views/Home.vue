@@ -1,13 +1,15 @@
-<script>
+<script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import Footer from '../components/Footer.vue';
 </script>
 
 <template>
   <div class="landing">
     <div class="about-me">
+      <marquee behavior="" direction="" style="font-size: 2em; color: limegreen;">WELCOME TO F&F GREENER GROUP OF COMPANIES</marquee>
       <div class="custom-card">
         <div class="about-me-content">
-          <img src="../assets/images/FandF.png" alt="Profile Image" class="profile-image" />
+          <img src="../assets/hotel/FandF.png" alt="Profile Image" class="profile-image" />
           <p class="bio">
             I Chief Aare OLUWAYAYO OLUWADARE Chairman C.E.O.F&F GROUP OF COMPANIES A POTENTIAL
             NIGERIA BUSINESS MAN AND PHILANTHROPY, CHIEF OLUWADARE WAS BORN IN EKITI STATE HE OBTAIN
@@ -19,32 +21,59 @@ import { RouterLink, RouterView } from 'vue-router'
 
     <div class="card-container">
       <div class="card-item">
-        <router-link to="/AgroAllied" class="card">
-          <img src="../assets/farm/IMG-20231019-WA0048.jpg" alt="Card Image" class="card-image" />
+        <router-link to="/Engineering" class="card">
+          <img
+            src="../assets/engineering/tractor1.jpeg"
+            alt="Card Image"
+            class="card-image"
+          />
           <div class="card-description">
-            <h2>AgroAllied Farm Limited</h2>
+            <h2> F&F Greener Engineering Co Ltd</h2>
+          </div>
+        </router-link>
+      </div>
+
+      <div class="card-item">
+        <router-link to="/AgroAllied" class="card">
+          <img src="../assets/farm/farm5.jpg" alt="Card Image" class="card-image" />
+          <div class="card-description">
+            <h2>Fedas Agro Allied Farms Ltd</h2>
           </div>
         </router-link>
       </div>
 
       <div class="card-item">
         <router-link to="/hotel" class="card">
-          <img src="../assets/images/IMG-20231019-WA0037.jpg" alt="Card Image" class="card-image" />
+          <img src="../assets/hotel/hotel8.jpg" alt="Card Image" class="card-image" />
           <div class="card-description">
-            <h2>KSSD Hotel</h2>
+            <h2>KSSD Hotel Ltd</h2>
           </div>
         </router-link>
       </div>
 
       <div class="card-item">
-        <router-link to="/Engineering" class="card">
-          <img src="../assets/engineering/IMG-20231019-WA0039.jpg" alt="Card Image" class="card-image" />
+        <router-link to="/FedasWater" class="card">
+          <img src="../assets/borehole/borehole5.png" alt="Card Image" class="card-image" />
           <div class="card-description">
-            <h2>Engineering Co Ltd</h2>
+            <h2>Fedas Water Services Ltd</h2>
+          </div>
+        </router-link>
+      </div>
+
+      <div class="card-item">
+        <router-link to="/Stores" class="card">
+          <img
+            src="../assets/stores/store2.jpeg"
+            alt="Card Image"
+            class="card-image"
+          />
+          <div class="card-description">
+            <h2> F&F  Stores and Supermarket</h2>
           </div>
         </router-link>
       </div>
     </div>
+    <Footer/>
   </div>
 </template>
 
@@ -55,6 +84,8 @@ import { RouterLink, RouterView } from 'vue-router'
 .about-me {
   text-align: center;
   padding: 20px;
+  background: #fcefee;
+  
 }
 
 .custom-card {
@@ -98,13 +129,15 @@ p {
 .card-container {
   display: flex;
   flex-wrap: wrap; /* Allow cards to wrap to the next line on small screens */
-  justify-content: space-between; /* Distribute cards evenly across the container */
-  padding: 0 3rem;
+  justify-content: space-around;
+
+  margin: 0 auto;
 }
 
 .card-item {
-  flex-basis: calc(33.33% - 10px); /* Create equal-width columns with some spacing */
+  flex-basis: calc(16.33% - 10px); /* Create equal-width columns with some spacing */
   margin-bottom: 20px; /* Add some vertical spacing between cards */
+  margin: 10px;
 }
 
 .card {
