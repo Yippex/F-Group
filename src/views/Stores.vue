@@ -84,7 +84,7 @@
       </div>
       <div class="img-card">
         <RouterLink to="">
-          <img src="../assetS/stores/store8.jpeg" alt="Company 4" />
+          <img src="../assets/stores/store8.jpeg" alt="Company 4" />
           <div class="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
             dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum

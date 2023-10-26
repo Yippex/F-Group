@@ -5,6 +5,7 @@ import EnginVue from '../views/EnginnerVue.vue'
 import Home from '../views/Home.vue'
 import FedasWater from '../views/FedasWater.vue'
 import Stores from '../views/Stores.vue'
+import ContactPage from '../views/ContactForm.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -32,6 +33,10 @@ const router = createRouter({
    {
     path:'/Stores',
     component: Stores
+   },
+   {
+    path: '/ContactForm',
+    component: ContactPage
    }
     
   ]

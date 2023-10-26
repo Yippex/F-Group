@@ -48,9 +48,8 @@ export default {
         <RouterLink to="/company4">
           <img src="../assets/engineering/tractor2.jpeg" alt="Company 4" />
           <div class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
-            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
-            illo cupiditate vero commodi, odit, asperiores quibusdam!
+            A sand truck, also commonly known as a sand hauler or sand transporter, is a specialized
+            heavy-duty vehicle designed for the transportation of sand and other loose materials
           </div>
         </RouterLink>
       </div>
@@ -58,9 +57,8 @@ export default {
         <RouterLink to="/company4">
           <img src="../assets/engineering/tractor4.jpeg" alt="Company 4" />
           <div class="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
-            dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
-            illo cupiditate vero commodi, odit, asperiores quibusdam!
+            A line of trucks and bulldozers rumbled in unison, a symphony of power and precision,
+            ready to reshape the earth with each mighty push and pull
           </div>
         </RouterLink>
       </div>
@@ -85,6 +83,14 @@ export default {
         </RouterLink>
       </div>
     </div>
+    <footer>
+      <div class="footer-text">
+        <p>
+          F&F GREENER ENGINEERING CO LTD KM 5,<br> IWOROKO ROAD, OPPOSITE EKITI STATE WATER CORPORATION <br>
+          HEADQUARTERS, ADO EKITI TEL: 08132214142, 08066562376
+        </p>
+      </div>
+    </footer>
   </section>
 </template>
 
@@ -106,6 +112,18 @@ export default {
 
 a {
   text-decoration: none;
+}
+
+footer {
+  height: 90px;
+  background: #90613f;
+}
+.footer-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px 0;
 }
 .container::before {
   content: '';

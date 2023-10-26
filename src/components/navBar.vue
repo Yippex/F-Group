@@ -20,7 +20,7 @@ export default {
           <RouterLink to="/"><img src="../assets/logo.png" alt=""></RouterLink>
         </div>
         <div>
-          <RouterLink to="/AgroAllied">Contact Us</RouterLink>
+          <RouterLink to="/ContactForm">Contact Us</RouterLink>
           <div class="dropdown" @click="toggleDropdown">
             <button class="dropbtn">
               Companies
@@ -30,6 +30,8 @@ export default {
               <RouterLink to="/Engineering">Engineering Co</RouterLink>
               <RouterLink to="/AgroAllied">Agro Allied</RouterLink>
               <RouterLink to="/hotel">Hotel Services</RouterLink>
+              <RouterLink to="/Stores">Stores and Supermarket</RouterLink>
+              
               
             </div>
           </div>
