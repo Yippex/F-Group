@@ -105,7 +105,7 @@
 
       <div class="img-card">
         <RouterLink to="">
-          <img src="../assetS/stores/store9.jpeg" alt="Company 4" />
+          <img src="../assets/stores/store9.jpeg" alt="Company 4" />
           <div class="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
             dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
@@ -116,7 +116,7 @@
 
       <div class="img-card">
         <RouterLink to="">
-          <img src="../assetS/stores/store11.jpeg" alt="Company 4" />
+          <img src="../assets/stores/store11.jpeg" alt="Company 4" />
           <div class="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
             dicta facilis quisquam voluptate repudiandae saepe perferendis magnam ab accusamus earum
