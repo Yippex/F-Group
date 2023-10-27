@@ -28,7 +28,7 @@ export default {
       <div class="img-card">
         <RouterLink to="/AgroAllied">
           <img src="../assets/farm/farm1.jpg" alt="Company 2" />
-          <div class="card-text">Pig farm</div>
+          <div class="card-text">A sow strecting out its head for food</div>
         </RouterLink>
       </div>
 
