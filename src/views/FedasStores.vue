@@ -31,7 +31,7 @@
     <h1 class="centered-h1">Photo Gallery</h1>
     <div class="container-links">
       <div class="img-card">
-        <RouterLink to="/AgroAllied">
+        <RouterLink to="">
           <img src="../assets/water/IMG-20231019-WA0015.jpg" alt="Company 2" />
           <div class="card-text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus repellat laborum
@@ -41,7 +41,7 @@
         </RouterLink>
       </div>
       <div class="img-card">
-        <RouterLink to="/company3">
+        <RouterLink to="">
           <img src="../assets/water/IMG-20231019-WA0018.jpg" alt="Company 3" />
           <div class="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quidem non animi vero,
@@ -52,7 +52,7 @@
       </div>
      
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/images/IMG-20231019-WA0042.jpg" alt="Company 4" />
           <div class="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
@@ -62,7 +62,7 @@
         </RouterLink>
       </div>
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/images/IMG-20231019-WA0037.jpg" alt="Company 4" />
           <div class="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
@@ -73,7 +73,7 @@
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/water/IMG-20231019-WA0017.jpg" alt="Company 4" />
           <div class="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam

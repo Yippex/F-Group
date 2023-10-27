@@ -26,118 +26,118 @@ export default {
     <h1 class="centered-h1">Agro Allied Farms</h1>
     <div class="container-links">
       <div class="img-card">
-        <RouterLink to="/AgroAllied">
+        <RouterLink to="">
           <img src="../assets/farm/farm1.jpg" alt="Company 2" />
           <div class="card-text">A sow strecting out its head for food</div>
         </RouterLink>
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company3">
+        <RouterLink to="">
           <img src="../assets/farm/farm11.jpeg" alt="Company 3"  style=" width: 100;"/>
           <div class="card-text">Birds in their cage ready for feed</div>
         </RouterLink>
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company3">
+        <RouterLink to="">
           <img src="../assets/farm/farm16.jpeg" alt="Company 3" />
           <div class="card-text">Pig in its house</div>
         </RouterLink>
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company3">
+        <RouterLink to="">
           <img src="../assets/farm/farm2.jpg" alt="Company 3" />
           <div class="card-text">Cassava grinding engine</div>
         </RouterLink>
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company3">
+        <RouterLink to="">
           <img src="../assets/farm/farm10.jpeg" alt="Company 3" />
           <div class="card-text">A kitten eating in it's cage</div>
         </RouterLink>
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company3">
+        <RouterLink to="">
           <img src="../assets/farm/farm13.jpeg" alt="Company 3" />
           <div class="card-text">Rabbit well caged</div>
         </RouterLink>
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company3">
+        <RouterLink to="">
           <img src="../assets/farm/farm14.jpeg" alt="Company 3" />
           <div class="card-text">A boars in its house</div>
         </RouterLink>
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company3">
+        <RouterLink to="">
           <img src="../assets/farm/farm12.jpeg" alt="Company 3" />
           <div class="card-text">Cows and ram going out for grazing</div>
         </RouterLink>
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company3">
+        <RouterLink to="">
           <img src="../assets/farm/farm15.jpeg" alt="Company 3" />
           <div class="card-text"> Baby Piglet suckinng from its sow</div>
         </RouterLink>
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company3">
+        <RouterLink to="">
           <img src="../assets/farm/farm9.jpeg" alt="Company 3" />
           <div class="card-text">Layers chicken's egg on the tray</div>
         </RouterLink>
       </div>
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/farm/farm3.jpg" alt="Company 4" />
           <div class="card-text">Rabbit farm and healthy Rabbit in it</div>
         </RouterLink>
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/farm/farm4.jpg" alt="Company 4" />
           <div class="card-text">Rice Processing Milling Engine</div>
         </RouterLink>
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/farm/cow1.jpg" alt="Company 4" />
           <div class="card-text">Different brid of cows feeding</div>
         </RouterLink>
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/farm/cow2.jpg" alt="Company 4" />
           <div class="card-text">Healthy cows going out to graze</div>
         </RouterLink>
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/farm/cow3.jpg" alt="Company 4" />
           <div class="card-text">Cows in there shed</div>
         </RouterLink>
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/farm/farm5.jpg" alt="Company 4" />
           <div class="card-text">Healthy Pineapple farm</div>
         </RouterLink>
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/farm/farm6.jpg" alt="Company 4" />
           <div class="card-text">
             A spacious metal birdcage with a colorful, contented bird perched on a wooden branch,
@@ -146,7 +146,7 @@ export default {
         </RouterLink>
       </div>
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/farm/farm7.jpg" alt="Company 4" />
           <div class="card-text">
             In the poultry farm, a diligent man in work attire tends to the flock, ensuring their

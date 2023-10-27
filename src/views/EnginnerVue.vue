@@ -26,7 +26,7 @@ export default {
     <h1 class="centered-h1">Image Gallery</h1>
     <div class="container-links">
       <div class="img-card">
-        <RouterLink to="/AgroAllied">
+        <RouterLink to="">
           <img src="../assets/engineering/tractor3.jpeg" alt="Company 2" />
           <div class="card-text">
             A massive yellow bulldozer, its blade gleaming in the sunlight, ready to move earth and
@@ -45,7 +45,7 @@ export default {
         </RouterLink>
       </div> -->
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/engineering/tractor2.jpeg" alt="Company 4" />
           <div class="card-text">
             A sand truck, also commonly known as a sand hauler or sand transporter, is a specialized
@@ -54,7 +54,7 @@ export default {
         </RouterLink>
       </div>
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/engineering/tractor4.jpeg" alt="Company 4" />
           <div class="card-text">
             A line of trucks and bulldozers rumbled in unison, a symphony of power and precision,
@@ -64,7 +64,7 @@ export default {
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/engineering/tractor5.jpeg" alt="Company 4" />
           <div class="card-text">
             A car transporter truck, often known as a car carrier, is a specialized vehicle designed
@@ -74,7 +74,7 @@ export default {
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/engineering/tractor6.jpeg" alt="Company 4" />
           <div class="card-text">
             A massive yellow bulldozer, its blade gleaming in the sunlight, ready to move earth and

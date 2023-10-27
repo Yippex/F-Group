@@ -24,7 +24,7 @@ export default {
     <h1 class="centered-h1">Fedas Water Services</h1>
     <div class="container-links">
       <div class="img-card">
-        <RouterLink to="/AgroAllied">
+        <RouterLink to="">
           <img src="../assets/borehole/borehole1.jpg" alt="Company 2" />
           <div class="card-text">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus repellat laborum
@@ -34,7 +34,7 @@ export default {
         </RouterLink>
       </div>
       <div class="img-card">
-        <RouterLink to="/company3">
+        <RouterLink to="">
           <img src="../assets/borehole/boreholde4.jpg" alt="Company 3" />
           <div class="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quidem non animi vero,
@@ -44,7 +44,7 @@ export default {
         </RouterLink>
       </div>
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/borehole/borehole5.png" alt="Company 4" />
           <div class="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
@@ -54,7 +54,7 @@ export default {
         </RouterLink>
       </div>
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/borehole/borehole7.jpg" alt="Company 4" />
           <div class="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
@@ -65,7 +65,7 @@ export default {
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/borehole/borehole9.jpg" alt="Company 4" />
           <div class="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam
@@ -76,7 +76,7 @@ export default {
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/borehole/borehole10.jpg" alt="Company 4" />
           <div class="card-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa expedita delectus totam

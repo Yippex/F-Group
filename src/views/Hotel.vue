@@ -23,7 +23,7 @@
     <h1 class="centered-h1">Photo Gallery</h1>
     <div class="container-links">
       <div class="img-card">
-        <RouterLink to="/AgroAllied">
+        <RouterLink to="">
           <img src="../assets/hotel/hotel1.jpg" alt="Company 2" />
           <div class="card-text">
             Beacon of comfort and luxury, offering a welcoming
@@ -33,7 +33,7 @@
         </RouterLink>
       </div>
       <div class="img-card">
-        <RouterLink to="/company3">
+        <RouterLink to="">
           <img src="../assets/hotel/hotel2.jpg" alt="Company 3" />
           <div class="card-text">
             A well furnished room houghtfully furnished to provide a relaxing and pleasant
@@ -43,7 +43,7 @@
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/hotel/hotel3.jpg" alt="Company 4" />
           <div class="card-text">
             Design and furnished to give you the best relaxation and entertainment
@@ -51,36 +51,36 @@
         </RouterLink>
       </div>
       <div class="img-card">
-        <RouterLink to="/company4">
+        
           <img src="../assets/hotel/hotel4.jpg" alt="Company 4" />
           <div class="card-text">Standard room for your comfort</div>
-        </RouterLink>
+        
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company4">
+        
           <img src="../assets/hotel/hotel5.jpg" alt="Company 4" />
           <div class="card-text">Beautiful artistic design</div>
-        </RouterLink>
+       
       </div>
       <div class="img-card">
-        <RouterLink to="">
+        
           <img src="../assets/hotel/hotel6.jpg" alt="Company 4" />
           <div class="card-text">Outdoor relaxationn view</div>
-        </RouterLink>
+        
       </div>
       <div class="img-card">
-        <RouterLink to="">
+        
           <img src="../assets/hotel/hotel7.jpg" alt="Company 4" />
           <div class="card-text">Executive suit</div>
-        </RouterLink>
+        
       </div>
 
       <div class="img-card">
-        <RouterLink to="">
+       
           <img src="../assets/hotel/hotel8.jpg" alt="Company 4" />
           <div class="card-text">Build with the best architectural design</div>
-        </RouterLink>
+        
       </div>
     </div>
   </section>
