@@ -20,7 +20,7 @@
     <h1 class="centered-h1">Photo Gallery</h1>
     <div class="container-links">
       <div class="img-card">
-        <RouterLink to="/AgroAllied">
+        <RouterLink to="">
           <img src="../assets/stores/store1.jpeg" alt="Company 2" />
           <div class="card-text">
             An aisle in the supermarket stocked with an array of biscuit packages. The biscuit
@@ -30,7 +30,7 @@
         </RouterLink>
       </div>
       <div class="img-card">
-        <RouterLink to="/company3">
+        <RouterLink to="">
           <img src="../assets/stores/store2.jpeg" alt="Company 3" />
           <div class="card-text">
             A shelf with an assortment of body cream products. The creams are presented in bottles
@@ -42,7 +42,7 @@
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/stores/store3.jpeg" alt="Company 4" />
           <div class="card-text">
             Here are rows of shelves filled with packages of noodles in different varieties. Some
@@ -52,14 +52,14 @@
         </RouterLink>
       </div>
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/stores/store5.jpeg" alt="Company 4" />
           <div class="card-text">A warehous for goods</div>
         </RouterLink>
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company4">
+        <RouterLink to="">
           <img src="../assets/stores/store6.jpeg" alt="Company 4" />
           <div class="card-text">
             Baby creams for a smooth moisturing body
