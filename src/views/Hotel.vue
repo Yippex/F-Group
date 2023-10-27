@@ -26,10 +26,9 @@
         <RouterLink to="/AgroAllied">
           <img src="../assets/hotel/hotel1.jpg" alt="Company 2" />
           <div class="card-text">
-            The hotel building stands as a beacon of comfort and luxury, offering a welcoming
-            retreat for travelers from all walks of life. Its architectural design harmoniously
-            blends modern sophistication with a touch of local charm, creating a visually striking
-            and memorable presence.
+            Beacon of comfort and luxury, offering a welcoming
+            retreat for travelers from all walks of life. 
+           
           </div>
         </RouterLink>
       </div>
@@ -38,7 +37,7 @@
           <img src="../assets/hotel/hotel2.jpg" alt="Company 3" />
           <div class="card-text">
             A well furnished room houghtfully furnished to provide a relaxing and pleasant
-            environment for guests during their stay.
+            environment.
           </div>
         </RouterLink>
       </div>
