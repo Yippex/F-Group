@@ -4,10 +4,10 @@
   <section>
     <div class="container">
       <marquee behavior="" direction="" style="color: white; font-size: 4rem; margin-bottom: 1px"
-        >WELCOME TO FEDAS HOTEL SERVICES CO LTD
+        >WELCOME TO KSSD HOTEL SERVICES CO LTD
       </marquee>
       <div class="container-text">
-        <h2 >FEDAS HOTEL SERVICES</h2>
+        <h2 >KSSD HOTEL SERVICES</h2>
 
         <p style="margin-top: 20px;">
           Home Away from HomeWhether you're traveling for leisure or business, F&F Hotel Services
