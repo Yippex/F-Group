@@ -53,6 +53,27 @@ export default {
 
       <div class="img-card">
         <RouterLink to="/company4">
+          <img src="../assets/farm/cow1.jpg" alt="Company 4" />
+          <div class="card-text">Different brid of cows feeding</div>
+        </RouterLink>
+      </div>
+
+      <div class="img-card">
+        <RouterLink to="/company4">
+          <img src="../assets/farm/cow2.jpg" alt="Company 4" />
+          <div class="card-text">Healthy cows going out to graze</div>
+        </RouterLink>
+      </div>
+
+      <div class="img-card">
+        <RouterLink to="/company4">
+          <img src="../assets/farm/cow3.jpg" alt="Company 4" />
+          <div class="card-text">Cows in there shed</div>
+        </RouterLink>
+      </div>
+
+      <div class="img-card">
+        <RouterLink to="/company4">
           <img src="../assets/farm/farm5.jpg" alt="Company 4" />
           <div class="card-text">Healthy Pineapple farm</div>
         </RouterLink>
