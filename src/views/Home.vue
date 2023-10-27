@@ -128,7 +128,7 @@ p {
 }
 
 .card-item {
-  width:230px;
+  max-width:230px;
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
@@ -179,6 +179,9 @@ h2 {
     width: 100%;
     margin: 10px 0;
     height: auto;
+  }
+  .card-item{
+    max-width: 400px;
   }
 }
 </style>

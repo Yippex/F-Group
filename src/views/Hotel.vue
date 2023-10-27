@@ -157,11 +157,11 @@ footer {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .img-card {
-  width: 230px;
+  max-width: 300px;
   border: 1px solid #ccc;
   border-radius: 8px;
   overflow: hidden;
@@ -188,7 +188,7 @@ footer {
 @media (max-width: 768px) {
   .container-links {
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
   }
   .container-text {
     margin-top: 20px;
@@ -205,6 +205,12 @@ footer {
   }
   .container-text p{
     font-size: 1em;
+  }
+  .img-card{
+    max-width: 300px;
+  }
+  .img-card img{
+    width: 100%;
   }
 }
 </style>
