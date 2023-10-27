@@ -31,10 +31,67 @@ export default {
           <div class="card-text">Pig farm</div>
         </RouterLink>
       </div>
+
+      <div class="img-card">
+        <RouterLink to="/company3">
+          <img src="../assets/farm/farm11.jpeg" alt="Company 3"  style=" width: 100;"/>
+          <div class="card-text">Birds in their cage ready for feed</div>
+        </RouterLink>
+      </div>
+
+      <div class="img-card">
+        <RouterLink to="/company3">
+          <img src="../assets/farm/farm16.jpeg" alt="Company 3" />
+          <div class="card-text">Pig in its house</div>
+        </RouterLink>
+      </div>
+
       <div class="img-card">
         <RouterLink to="/company3">
           <img src="../assets/farm/farm2.jpg" alt="Company 3" />
           <div class="card-text">Cassava grinding engine</div>
+        </RouterLink>
+      </div>
+
+      <div class="img-card">
+        <RouterLink to="/company3">
+          <img src="../assets/farm/farm10.jpeg" alt="Company 3" />
+          <div class="card-text">A kitten eating in it's cage</div>
+        </RouterLink>
+      </div>
+
+      <div class="img-card">
+        <RouterLink to="/company3">
+          <img src="../assets/farm/farm13.jpeg" alt="Company 3" />
+          <div class="card-text">Rabbit well caged</div>
+        </RouterLink>
+      </div>
+
+      <div class="img-card">
+        <RouterLink to="/company3">
+          <img src="../assets/farm/farm14.jpeg" alt="Company 3" />
+          <div class="card-text">A boars in its house</div>
+        </RouterLink>
+      </div>
+
+      <div class="img-card">
+        <RouterLink to="/company3">
+          <img src="../assets/farm/farm12.jpeg" alt="Company 3" />
+          <div class="card-text">Cows and ram going out for grazing</div>
+        </RouterLink>
+      </div>
+
+      <div class="img-card">
+        <RouterLink to="/company3">
+          <img src="../assets/farm/farm15.jpeg" alt="Company 3" />
+          <div class="card-text"> Baby Piglet suckinng from its sow</div>
+        </RouterLink>
+      </div>
+
+      <div class="img-card">
+        <RouterLink to="/company3">
+          <img src="../assets/farm/farm9.jpeg" alt="Company 3" />
+          <div class="card-text">Layers chicken's egg on the tray</div>
         </RouterLink>
       </div>
       <div class="img-card">
@@ -145,7 +202,7 @@ a {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5);
   filter: blur(1); /* Adjust the blur amount as needed */
 }
 
@@ -164,10 +221,10 @@ a {
   text-align: center; /* Center-align the text */
 }
 .container-text h1 {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 .container-text p {
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-top: 30px;
 }
 .container-links {
@@ -178,7 +235,7 @@ a {
 }
 
 .img-card {
-  flex: 0 0 calc(25% - 20px);
+  /* flex: 0 0 calc(25% - 20px); */
   border: 1px solid #ddd;
   border-radius: 8px;
   padding: 10px;

@@ -161,10 +161,10 @@ footer {
   text-align: center; /* Center-align the text */
 }
 .container-text h1 {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 .container-text p {
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-top: 30px;
 }
 .container-links {

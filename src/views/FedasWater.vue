@@ -135,10 +135,10 @@ a {
 }
 
 .container-text h1 {
-  font-size: 2.6em;
+  font-size: 2.5em;
 }
  .container-text p{
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-top: 10px;
  }
 .container-links {

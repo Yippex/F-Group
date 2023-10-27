@@ -9,7 +9,7 @@
       <div class="container-text">
         <h2 style="font-size: 2em">FEDAS HOTEL SERVICES</h2>
 
-        <p style="margin-top: 20px; font-size: 1.5em">
+        <p style="margin-top: 20px; font-size: 1.2em">
           Home Away from HomeWhether you're traveling for leisure or business, F&F Hotel Services
           aims to be your home away from home. Come and experience the magic of F&F Hotel Services.
           We invite you to immerse yourself in the exceptional hospitality, comfort, and luxury that
@@ -115,7 +115,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   filter: blur(10px); /* Adjust the blur amount as needed */
 }
 

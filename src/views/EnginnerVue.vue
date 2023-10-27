@@ -7,10 +7,10 @@ export default {
 <template>
   <section>
     <div class="container">
+      <marquee behavior="" direction="" style="color: white; font-size: 3rem"
+        >WELCOME TO FANDF ENGINEERING CO LTD</marquee
+      >
       <div class="container-text">
-        <marquee behavior="" direction="" style="color: white; font-size: 3rem"
-          >WELCOME TO FANDF ENGINEERING CO LTD</marquee
-        >
         <h1>F&F Engineering Co Ltd: Pioneering Innovation in Engineering Excellence</h1>
         <p>
           At F&F Engineering Co Ltd, our commitment to excellence in engineering knows no bounds.
@@ -115,7 +115,7 @@ a {
 }
 
 footer {
-  height: 90px;
+  height: 100px;
   background: #90613f;
 }
 .footer-text {
@@ -123,7 +123,7 @@ footer {
   align-items: center;
   justify-content: center;
   color: white;
-  padding: 20px 0;
+  padding: 20px;
 }
 .container::before {
   content: '';
@@ -132,7 +132,7 @@ footer {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.5);
   filter: blur(1); /* Adjust the blur amount as needed */
 }
 
@@ -146,15 +146,15 @@ footer {
 .container-text {
   color: #fff;
   position: relative;
-  margin-top: 150px;
+  margin-top: 50px;
   z-index: 1; /* Place text above the blurred background */
   text-align: center; /* Center-align the text */
 }
 .container-text h1 {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 .container-text p {
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-top: 30px;
 }
 .container-links {
