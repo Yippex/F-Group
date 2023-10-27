@@ -156,13 +156,12 @@ export default {
       </div>
 
       <div class="img-card">
-        <RouterLink to="/company4">
           <img src="../assets/farm/farm8.jpg" alt="Company 4" />
           <div class="card-text">
             The cage is thoughtfully designed, with ample room for the bird to spread its wings and
             a variety of perches and toys for its enrichment.
           </div>
-        </RouterLink>
+        
       </div>
     </div>
     <footer>
@@ -235,19 +234,21 @@ a {
 }
 
 .img-card {
-  /* flex: 0 0 calc(25% - 20px); */
-  border: 1px solid #ddd;
+  width:300px;
+  border: 1px solid #ccc;
   border-radius: 8px;
-  padding: 10px;
-  margin: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(34, 16, 16, 0.4);
+  margin:16px;
+  padding: 2px;
   text-align: center;
-  max-width: 300px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
 }
 
 .img-card img {
-  max-width: 100%;
-  height: auto;
+  height: 200px;
+  width: 100%;
+  background-size: contain;
+  /* background-attachment: fixed; */
 }
 
 .card-text {

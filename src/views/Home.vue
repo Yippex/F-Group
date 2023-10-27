@@ -128,16 +128,21 @@ p {
 }
 
 .card-item {
-  flex-basis: calc(16.33% - 10px); /* Create equal-width columns with some spacing */
-  margin-bottom: 20px; /* Add some vertical spacing between cards */
-  margin: 10px;
+  width:230px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(34, 16, 16, 0.4);
+  margin:16px;
+  padding: 2px;
+  text-align: center;
 }
 
 .card {
   display: block;
   text-decoration: none;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  /* border: 1px solid #ccc;
+  border-radius: 5px; */
   overflow: hidden;
   transition: transform 0.3s;
 }

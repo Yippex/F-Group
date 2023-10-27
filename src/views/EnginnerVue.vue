@@ -165,19 +165,20 @@ footer {
 }
 
 .img-card {
-  flex: 0 0 calc(35% - 20px);
-  border: 1px solid #ddd;
+  width:300px;
+  border: 1px solid #ccc;
   border-radius: 8px;
-  padding: 10px;
-  margin: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(34, 16, 16, 0.4);
+  margin:16px;
+  padding: 2px;
   text-align: center;
-  max-width: 300px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
 }
 
 .img-card img {
-  max-width: 100%;
-  height: auto;
+  height: 200px;
+  width: 100%;
+  background-size: contain;
 }
 
 .card-text {
