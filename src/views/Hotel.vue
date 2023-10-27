@@ -7,14 +7,13 @@
         >WELCOME TO FEDAS HOTEL SERVICES CO LTD
       </marquee>
       <div class="container-text">
-        <h2 style="font-size: 2em">FEDAS HOTEL SERVICES</h2>
+        <h2 >FEDAS HOTEL SERVICES</h2>
 
-        <p style="margin-top: 20px; font-size: 1.2em">
+        <p style="margin-top: 20px;">
           Home Away from HomeWhether you're traveling for leisure or business, F&F Hotel Services
           aims to be your home away from home. Come and experience the magic of F&F Hotel Services.
           We invite you to immerse yourself in the exceptional hospitality, comfort, and luxury that
-          we offer. Your journey with us will be filled with beautiful memories and the promise of
-          returning to a place where you're not just a guest but a valued part of our family.
+          we offer. 
         </p>
       </div>
     </div>
@@ -148,6 +147,12 @@ footer {
   z-index: 1; /* Place text above the blurred background */
   text-align: center; /* Center-align the text */
 }
+.container-text h1{
+  font-size: 2.5em;
+}
+.container-text p{
+  font-size: 1.2em;
+}
 .container-links {
   display: flex;
   flex-wrap: wrap;
@@ -194,6 +199,12 @@ footer {
 
   .img-card {
     max-width: 100%;
+  }
+  .container-text h1{
+    font-size: 1.5em;
+  }
+  .container-text p{
+    font-size: 1em;
   }
 }
 </style>

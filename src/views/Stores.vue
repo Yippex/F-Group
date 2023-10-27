@@ -10,8 +10,7 @@
         <h2>STORES AND SUPERMARKET</h2>
         <p>
           At F&F, we understand that style and comfort should go hand in hand, and we offer a wide
-          range of clothing options to cater to your fashion needs. Our stores are thoughtfully
-          designed to provide a seamless and enjoyable shopping experience.
+          range of clothing options to cater to your fashion needs. 
         </p>
       </div>
     </div>
@@ -23,9 +22,7 @@
         <RouterLink to="">
           <img src="../assets/stores/store1.jpeg" alt="Company 2" />
           <div class="card-text">
-            An aisle in the supermarket stocked with an array of biscuit packages. The biscuit
-            packages come in various sizes and shapes, from traditional round cookies to more
-            elaborate and decorative options
+            An aisle in the supermarket stocked with an array of biscuit packages.
           </div>
         </RouterLink>
       </div>
@@ -34,9 +31,7 @@
           <img src="../assets/stores/store2.jpeg" alt="Company 3" />
           <div class="card-text">
             A shelf with an assortment of body cream products. The creams are presented in bottles
-            or containers of various sizes and shapes. Labels on the products indicate different
-            scents, ingredients, and skin benefits, such as "hydrating," "nourishing," or "for
-            sensitive skin.
+            or containers of various sizes and shapes. 
           </div>
         </RouterLink>
       </div>
